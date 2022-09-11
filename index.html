@@ -30,7 +30,7 @@
             <!-- Hamburger Icon -->
             <button
             id="menu-btn"
-            class="block hamburger md:hidden focus:outline-none"
+            class="open block hamburger md:hidden focus:outline-none"
                 >
                 <span class="hamburger-top"></span>
                 <span class="hamburger-middle"></span>
@@ -40,8 +40,12 @@
 
       <!-- Mobile Menu -->
       <div class="md:hidden">
-        <div>
-            
+        <div id="menu" class="flex-col items-center py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto left-6 right-6 drop-shadow-md hidden ">
+            <a href="" class="hover:text-darkGrayishBlue">Pricing</a>
+            <a href="" class="hover:text-darkGrayishBlue">Product</a>
+            <a href="" class="hover:text-darkGrayishBlue">About us</a>
+            <a href="" class="hover:text-darkGrayishBlue">Careers</a>
+            <a href="" class="hover:text-darkGrayishBlue">Community</a>
         </div>
       </div>
    </nav>
@@ -234,6 +238,8 @@
           </div>
         </div>
       </section>
+
+      <script src="script.js"></script>
     
 
 </body>
